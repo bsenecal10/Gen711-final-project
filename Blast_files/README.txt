@@ -91,6 +91,14 @@ mafft --reorder --localpair --thread 6 MSA_3 > MSA_3.aln
 Viewed MSA results with EMBL-EBI tool:
 copied entire MSA_#.aln files and pasted into https://www.ebi.ac.uk/Tools/msa/mview/
 MSA_1.aln: https://www.ebi.ac.uk/Tools/services/web/toolresult.ebi?jobId=mview-I20200513-214641-0145-12230186-p1m
+    line #3 is the Argentine black and white tegu
+    line #4 is the Komodo dragon
+    all other lines are platypus sequences
 MSA_2.aln: https://www.ebi.ac.uk/Tools/services/web/toolresult.ebi?jobId=mview-I20200513-215017-0590-50803165-p1m
+    line #3 is the Mainland brown snake
+    line #4 is the Eastern brown snake
+    all other lines are platypus sequences
 MSA_3.aln: https://www.ebi.ac.uk/Tools/services/web/toolresult.ebi?jobId=mview-I20200513-215410-0910-66534756-p1m
-
+    line #6 is the Common wall lizard
+    line #7 is the Argentine black and white tegu
+    all other lines are platypus sequences
