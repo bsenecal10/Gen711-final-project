@@ -57,9 +57,9 @@ grep -A 51 "ENSOANT00000076532.1" Platypus_transcript >> MSA_3
 grep -A 40 "ENSOANT00000040822.2" Platypus_transcript >> MSA_1
 grep -A 45 "ENSOANT00000020910.3" Platypus_transcript >> MSA_3
 grep -A 26 "ENSOANT00000012764.3" Platypus_transcript >> MSA_2
-rep -A 42 "ENSOANT00000009920.3" Platypus_transcript >> MSA_3
+grep -A 42 "ENSOANT00000009920.3" Platypus_transcript >> MSA_3
 
-Downloaded reptile sequences for MSA (originally from ensemble):
+Downloaded reptile sequences for MSA from desktop (originally ensemble):
 1.
 rsync -av -e "ssh -i $HOME/jetkey" /Users/brennans/Desktop/Varanus_komodoensis_ENSVKKG00000007127_sequence.fa bsenecal@129.114.17.160:/home/bsenecal/Gen711-final-project/Blast_files
 
