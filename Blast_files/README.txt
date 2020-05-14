@@ -1,5 +1,4 @@
-
-
+Brennan Senecal May 13, 2020
 
 download platypus transcriptome from desktop (originally ensemble): 
 rsync -av -e "ssh -i $HOME/jetkey" /Users/brennans/Desktop/Ornithorhynchus_anatinus.mOrnAna1.p.v1.cdna.abinitio.fa bsenecal@129.114.17.160:/home/bsenecal/Gen711-final-project/Blast_files
