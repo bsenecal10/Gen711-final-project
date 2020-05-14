@@ -35,14 +35,14 @@ Moved sequences and headers to new files according to BLAST sequence matches:
 
 grep -A 31 "GENSCAN00000007782" Platypus_transcript > MSA_1
 grep -A 26 "GENSCAN00000028920" Platypus_transcript > MSA_2
-grep -A 14 "GENSCAN00000030991" Platypus_transcript > MSA_3
+grep -A 32 "ENSOANT00000066037.1" Platypus_transcript > MSA_3
+grep -A 14 "GENSCAN00000030991" Platypus_transcript >> MSA_3
 grep -A 15 "GENSCAN00000031000" Platypus_transcript >> MSA_3
 grep -A 49 "ENSOANT00000071281.1" Platypus_transcript >> MSA_3
 grep -A 91 "ENSOANT00000062509.1" Platypus_transcript >> MSA_3
 grep -A 90 "ENSOANT00000053021.1" Platypus_transcript >> MSA_3
 grep -A 26 "ENSOANT00000056963.1" Platypus_transcript >> MSA_3
 grep -A 22 "ENSOANT00000048653.1" Platypus_transcript >> MSA_3
-grep -A 32 "ENSOANT00000066037.1" Platypus_transcript >> MSA_3
 grep -A 44 "ENSOANT00000007664.2" Platypus_transcript >> MSA_3
 grep -A 89 "ENSOANT00000060584.1" Platypus_transcript >> MSA_3
 grep -A 57 "ENSOANT00000001929.3" Platypus_transcript >> MSA_3
@@ -98,7 +98,7 @@ MSA_2.aln: https://www.ebi.ac.uk/Tools/services/web/toolresult.ebi?jobId=mview-I
     line #3 is the Mainland brown snake
     line #4 is the Eastern brown snake
     all other lines are platypus sequences
-MSA_3.aln: https://www.ebi.ac.uk/Tools/services/web/toolresult.ebi?jobId=mview-I20200513-215410-0910-66534756-p1m
+MSA_3.aln: https://www.ebi.ac.uk/Tools/services/web/toolresult.ebi?jobId=mview-I20200514-195751-0653-62076692-p1m
     line #6 is the Common wall lizard
     line #7 is the Argentine black and white tegu
     all other lines are platypus sequences
